@@ -11,6 +11,7 @@
       quickfile.enabled = true;
       indent.enabled = true;
       words.enabled = true;
+      lazygit.enabled = true;
       picker =
         let
           keys = {
