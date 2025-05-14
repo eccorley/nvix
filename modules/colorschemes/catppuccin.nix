@@ -4,7 +4,7 @@
     enable = true;
     settings = {
       flavour = "mocha";
-      transparent_background = config.nvix.transparent;
+      transparent_background = false;
       no_italic = true;
       styles = {
         floats = if config.nvix.transparent then "transparent" else "dark";
