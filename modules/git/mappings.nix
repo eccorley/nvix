@@ -17,7 +17,7 @@ in
   ];
 
   keymaps = [
-    (mkKeymap "n" "<leader>gs" "<cmd>:Neotree toggle show status left<cr>" "Neo Tree Git Status")
+    (mkKeymap "n" "<leader>gs" "<cmd>:Neotree toggle show git_status left<cr>" "Neo Tree Git Status")
     (mkKeymap "n" "<leader>ghS" "<cmd>lua require('gitsigns').stage_buffer()<cr>" "Stage Buffer")
     (mkKeymap "n" "<leader>ghu" "<cmd>lua require('gitsigns').undo_stage_hunk()<cr>" "Undo Stage Hunk")
     (mkKeymap "n" "<leader>ghR" "<cmd>lua require('gitsigns').reset_buffer()<cr>" "Reset Buffer")
