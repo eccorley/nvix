@@ -27,7 +27,7 @@ in
     (mkKeymap "n" "<leader>o" "<cmd>:lua require('buffer_manager.ui').toggle_quick_menu()<cr>"
       "Buffer Manager"
     )
-    (mkKeymap "n" "<leader>bb" "<cmd>:lua require('harpoon.ui').toggle_quick_menu()<cr>" "Harpoon ui")
+    (mkKeymap "n" "<leader>bb" "<cmd>:Neotree reveal toggle<cr>" "Neo Tree Explorer")
 
     (mkKeymap "n" "<leader>bp" "<cmd>:BufferLinePick<cr>" "Buffer Line Pick")
     (mkKeymap "n" "<leader>qc" "<cmd>:bp | bd #<cr>" "Buffer close")
