@@ -14,7 +14,7 @@
   ];
   plugins = {
     harpoon = {
-      enable = true;
+      enable = false;
     };
     bufferline = {
       enable = true;
