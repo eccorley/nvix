@@ -19,8 +19,8 @@ in
 
   keymaps = [
     (mkKeymap "n" "<leader>b." "<cmd>:lua require('harpoon.mark').add_file()<cr>" "Add File to Harpoon")
-    (mkKeymap "n" "<leader>bm" "<cmd>:lua require('buffer_manager.ui').toggle_quick_menu()<cr>"
-      "Buffer Manager"
+    (mkKeymap "n" "<leader>o" "<cmd>:lua require('buffer_manager.ui').toggle_quick_menu()<cr>"
+      "Open Buffers"
     )
     (mkKeymap "n" "<leader>bb" "<cmd>:lua require('harpoon.ui').toggle_quick_menu()<cr>" "Harpoon ui")
 

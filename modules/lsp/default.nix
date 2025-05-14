@@ -19,7 +19,7 @@
       enable = true;
       inlayHints = true;
       servers = {
-        harper_ls.enable = true; # Alternative for grammerly
+        harper_ls.enable = false; # Alternative for grammerly
         typos_lsp = {
           enable = true;
           extraOptions.init_options.diagnosticSeverity = "Hint";
