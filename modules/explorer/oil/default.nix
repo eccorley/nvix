@@ -1,6 +1,8 @@
 { lib, config, ... }:
 {
-  options.nvix.explorer.oil = lib.mkEnableOption "Enable Oil";
+  options.nvix.explorer.oil = lib.mkEnableOption "Enable Oil" // {
+    default = true;
+  };
   config = {
     plugins.oil = {
       enable = config.nvix.explorer.oil;

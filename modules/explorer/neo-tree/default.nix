@@ -10,7 +10,7 @@ let
 in
 {
   options.nvix.explorer.neo-tree = lib.mkEnableOption "Enable NeoTree" // {
-    default = true;
+    default = false;
   };
   config = {
     extraPlugins = with pkgs.vimPlugins; [ nvim-window-picker ];
