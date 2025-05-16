@@ -1,6 +1,6 @@
 {
   plugins.firenvim = {
-    enable = true;
+    enable = false;
     settings = {
       globalSettings = {
         cmdline = "neovim";
